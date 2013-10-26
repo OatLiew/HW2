@@ -1,0 +1,222 @@
+/* Google web fonts 'Open Sans' (italic and normal) and 'Boogaloo' */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Boogaloo);
+
+/* reset CSS file to reset browser default styling to a consistent starting point */
+@import url(reset.css);
+
+body.index {
+    background-image: url(../img/pizza1.jpg), url(../img/1200px/seamlesstexture25_1200.jpg);
+    /*background-repeat: repeat;*/
+    font-family: "Lucida Grande", Arial, sans-serif;
+    font-size: 18px;
+    padding: 17px;
+    background-size: 700px 700px, 1400px 3000px;
+    background-position:left top, left top;
+    background-repeat: no-repeat;
+    /*background: fixed;*/
+}
+
+body.menu{
+    background-image: url(../img/pizza-order.jpg), url(../img/1200px/seamlesstexture25_1200.jpg);;
+    font-family: "Lucida Grande", Arial, sans-serif;
+    font-size: 18px;
+    padding: 17px;
+    background-repeat: no-repeat;
+    background-size: 700px 700px, 1400px 3000px;
+    background-position:left top, left top;
+    background-repeat: no-repeat;
+}
+
+
+body.about{
+    background-image:  url(../img/pizza-oven.jpg), url(../img/1200px/seamlesstexture25_1200.jpg);;
+    font-family: "Lucida Grande", Arial, sans-serif;
+    font-size: 18px;
+    padding: 17px;
+    background-repeat: no-repeat;
+    background-size: 700px 700px, 1400px 3000px;
+    background-position:left top, left top;
+    background-repeat: no-repeat;
+}
+
+p{
+    padding: 5px;
+    margin-bottom: 1em;
+}
+
+h2{
+    color: #000066;
+    font-weight:bold;
+    font-size: 24px;   
+}
+
+.menu{
+    margin: 0;
+    width: 100%;
+    background: #111;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-family: "proxima-nova-extra-condensed";
+    font-size: 130%;
+    /*text-transform: uppercase;*/
+}
+
+.crop {
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 75px;
+    box-shadow:  2px 2px 6px #555;
+}
+
+
+.content-box {
+    background-image: url(../img/1200px/seamlesstexture23_1200.jpg);
+    width: 62%;
+    background-color: #FFF;
+    margin-top: 30px;
+    box-shadow:  2px 2px 6px #555;
+    padding: 20px;
+}
+
+.moto {
+	font-family: 'Boogaloo', sans-serif;
+    font-size: 36px;
+    color: #111;
+}
+
+.pull-left {
+    float: left;
+    margin-right: 20px;
+}
+
+.pull-right {
+    float: right;
+    margin-right: 20px;
+}
+
+.header {
+    padding: 20px;
+    margin-bottom: 150px;
+}
+
+
+.footer{
+    border-top: thin double #C0C0C0;
+    font-size: 80%;
+    font-style:italic;
+    padding: 10px;
+}
+
+h1{
+    font-size: 120%;
+}
+
+.menuHead{
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.menuDetail{
+
+    padding-left: 30px;
+    margin-bottom: 1em;
+}
+
+.col {
+    float: left;
+    width: 33%;
+    padding: 10px;
+}
+
+.row {
+    clear: both;
+    min-width: 1000px;
+}
+
+.col-left {
+    /*background-image: url(../img/soccer.png);*/
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+.col-right {
+    /*background-image: url(../img/photos.png);*/
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+strong{
+    font-weight:bold;
+    font-size: 110%
+}
+.content-footer {
+    background-image: url(../img/1200px/seamlesstexture23_1200.jpg);
+    width: 30%;
+    background-color: #FFF;
+    box-shadow:  2px 2px 6px #555;
+    font-size: 15px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .row {
+    clear: both;
+    min-width: 700px;
+    }
+    .content-box {
+    width: 80%;   
+    }
+
+    .crop {
+    width: 20%;
+    height: 10%;
+    margin-left: 20%;
+    } 
+
+    .content-footer {
+    position: relative;
+    width: 62%;
+    margin-right: 30px;
+    box-shadow:  2px 2px 6px #555;
+    }
+     
+    .comname{
+    width: 50%;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .crop {
+    width: 40%;
+    height: 20%;
+    margin-left: 20%;
+    }
+
+    .moto {
+    font-size: 20px;
+
+    body{
+    font-size: 16px;
+    }
+
+    .comname{
+    width: 50%;
+    }
+
+    .content-footer {
+    position: relative;
+    }
+}
+
+
+
+
